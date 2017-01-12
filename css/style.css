@@ -28,7 +28,7 @@ font-family:lato;
 }
 
 
-.header-content {
+.header-nt {
     max-width: 100%;
 }
 
@@ -167,7 +167,7 @@ li a {
   .habilidades ul > li:nth-child(2)::before  {
     content: "•"; color: blue}
     .habilidades ul > li:nth-child(3)::before  {
-      content: "•"; }
+      content: "•" color:white; }
 
 /*MENU*/
 
@@ -325,6 +325,7 @@ background: rgba(0, 0, 0, 0.6);
 .thumbnail p {
 
   color:white;
+  font-size:0.6em;
 }
 @media(max-width:600px){
 .thumbnail p{
