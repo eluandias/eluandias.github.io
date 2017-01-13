@@ -184,8 +184,8 @@ li a {
     padding-right:5%;
     margin: 0;
 
-    height: 90%;
-    width: 100%;
+    height: 92%;
+    width: 85%;
     max-width: 380px;
 
     position: fixed;
@@ -208,6 +208,7 @@ li a {
 
 @media not all and (max-width:660px) {
     .menu-abrir,
+    .linkedin,
     .menu-fechar {
         display: none;
 
@@ -444,6 +445,7 @@ background: rgba(0, 0, 0, 0.6);
 
 /* gaveta */
 .port {
+
 	position: absolute;
 	width: 100%;
 
@@ -522,7 +524,7 @@ h1{
   height:50px;
   position: absolute;
 	right: 30px;
-	top: 30px;
+	top: 37px;
 	z-index: 1;
 
 
@@ -531,6 +533,7 @@ h1{
 
 .item_open {
   	opacity: 1;
+    margin-top:3%;
     width: 100%;
 		top: 90%;
    /*height:300%;*/
@@ -557,13 +560,17 @@ footer {
 }
 
 
+
+
 .rodape {
-  width:47%;
+  width:48%;
   float:left;
   padding:5%;
-
-
 }
+
+
+
+
 footer_below {
   position:fixed;
   widht:100%;
@@ -610,12 +617,12 @@ footer_below {
 
 /* colors menu header */
 .test {
-   background: rgba(0, 0, 0, 0.4);
+   background: rgba(255, 255, 255, 0.4);
 
 }
 
 .test::before {
 
-  content: ">"; color: white;
+  content: ">"; color: red;
     margin-right:1%;
 }
