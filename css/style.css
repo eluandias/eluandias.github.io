@@ -107,14 +107,15 @@ li a {
       background-image: url(../img/spritesheet_skill-icon.png);
       background-repeat: no-repeat;
       display: inline-block;
-      /*vertical-align: middle;*/
+      /*vertical-align: bottom;*/
       height: 70px;
-
+      width:55px;
+      opacity: 0.6;
     }
 
 
   .skill-icon.jquery {
-        width: 56px;
+
           /*height:70px;*/
         background-color:#252525;
         background-position: 16% -4px;
@@ -124,7 +125,7 @@ li a {
     }
 
     .skill-icon.bootstrap {
-          width: 55px;
+
           /*height:55px;*/
           background-position: 21.1% -7px;
           /*border-radius:20%;*/
@@ -132,28 +133,33 @@ li a {
       }
 
       .skill-icon.responsive {
-            width: 55px;
+
             background-position: 37% -4px;
 
 
         }
 
         .skill-icon.angular {
-              width: 50px;
+
               background-position: -693px -4px;
               border-bottom:1px solid red;
+              /*vertical-align: top;*/
+
           }
 
 
       .skill-icon.arduino {
-          width: 45px;
+
           background-position: -1011px -4px;
       }
 /* fim icones */
 
 
 
+
 /*  estilo lista habilidades */
+
+
 
 .habilidades ul li {
 
@@ -167,7 +173,7 @@ li a {
   .habilidades ul > li:nth-child(2)::before  {
     content: "•"; color: blue}
     .habilidades ul > li:nth-child(3)::before  {
-      content: "•" color:white; }
+      content: "•"; color:white; }
 
 /*MENU*/
 
@@ -329,7 +335,7 @@ background: rgba(0, 0, 0, 0.6);
 }
 @media(max-width:600px){
 .thumbnail p{
-  font-size:0.7em;
+  font-size:0.5em;
 }
 }
 .gallery {
@@ -604,5 +610,12 @@ footer_below {
 
 /* colors menu header */
 .test {
-   background: rgba(250, 250, 250, 0.8);
+   background: rgba(0, 0, 0, 0.4);
+
+}
+
+.test::before {
+
+  content: ">"; color: white;
+    magin-left:80px;
 }
